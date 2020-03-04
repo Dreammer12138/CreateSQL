@@ -51,7 +51,7 @@ class selectSQL:
 			for index, a in enumerate(self.__as_column):
 				if index != 0:
 					SQL += ", "
-				SQL ++ "`{}`".format(a)
+				SQL += "`{}`".format(a)
 		SQL += " FROM `{}`".format(self.__table_name)
 		if self.__where != "":
 			SQL += self.__where
