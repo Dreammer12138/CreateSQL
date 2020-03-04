@@ -63,7 +63,7 @@ class Data_Table:
             else:
                 column += "NULL "
             if c['Default'] != "":
-                column += "DEFAULT {}".format(c['Default'])
+                column += "DEFAULT `{}`".format(c['Default'])
             if c['is_primarykey']:
                 column += "PRIMARY KEY "
         self.__SQL = self.__SQL + columns.format(column)
