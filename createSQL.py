@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # create SQL
 # author Dreammer12138
-# ------------------+-----------+------------------------
+# -----------------+-----------+-------------------------
 # Variable 		   |Type	   |Description			
-# ------------------+-----------+------------------------
+# -----------------+-----------+-------------------------
 # __SQL: 		   |string	   |SQL statement
 # columns:		   |list	   |is table's columns
 # table_name:	   |string	   |table's name
@@ -13,7 +13,7 @@
 # del_column:	   |function   |delete a column
 # update_column:   |function   |update an existing column
 # SQL:			   |function   |return SQL statement
-# ------------------+-----------+-------------------------
+# -----------------+-----------+-------------------------
 
 class Data_Table:
     __SQL = ""
