@@ -8,3 +8,5 @@
 - `createSQL`是用来创建表的
 - `selectSQL`是用来查询的
 - `insertSQL`是用来插入的
+
+暂时不支持`ORDER BY`等功能
